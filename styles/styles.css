@@ -1,0 +1,204 @@
+*{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+html{
+    font: 100%/1.5em Helvitice,Arial, sans-serif;
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 20em;
+}
+
+body{
+    font: 100%/1.5em Helvitice,Arial, sans-serif;
+    color: #313131;
+    background-image: url(../image/3.jpg);
+    background-size: cover;
+
+}
+
+.container{
+    background: #edede1;
+    width: 90%;
+    margin: 0 auto;
+    line-height: 2rem;
+    
+    
+}
+
+.main{
+    width: 50.7%;
+    float: left;
+    padding: 2rem;
+}
+
+
+.image{
+    background: #edede1;
+    width: 31.5%;
+    float: right;
+    line-height: 25px;
+    padding-right: 1.5rem;
+    padding-top: 1.5rem;
+    
+}
+
+.side-image{
+    width: 100%;
+    border: 1px solid black;
+   
+}
+
+.footer{
+    clear: both;
+    padding-left: 2rem;
+}
+
+.nav ul li:last-child a{
+    border: none;
+    
+    }
+    
+    .nav ul li a{
+       
+        display: block;
+        text-decoration: none;
+        font-weight: bold;
+        background: black;
+        padding: .75em;
+        border-bottom: 3px solid #313131;
+        color: white;
+        
+        
+        
+    
+        
+    
+    }
+    
+    .nav {
+        background: black;
+        color: white;
+        padding-bottom: 0.6rem;
+        border-top: 1px solid black;
+
+        
+    }
+
+
+.nav ul .active{
+    border: px solid black;
+}
+.nav ul li a:hover{
+    background:white;
+    color: black;
+}
+
+.nav ul li .active{
+    background: white;
+    color: black;
+    
+}
+
+.nav ul{
+    list-style: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    
+}
+
+a.nav-link{
+    float: right;
+    font-weight: bold;
+    text-decoration: none;
+    color:#313131;;
+    padding-right: 2rem;
+    padding-bottom: 3em;
+}
+
+.link{
+    color: #313131;
+}
+    
+@media screen and (max-width: 690px){
+    
+
+
+    .main{
+        width:100%;
+        padding-right:4rem;
+    }  
+    
+    .image{
+        background: #d1d1c1;
+        width: 100%;
+        padding: 0;
+    }
+
+    .side-image{
+        width: 100%;
+        border: 1px solid black;
+       
+    }   
+    
+    body{
+        font-size: 80%;
+        line-height: 1rem;
+    }
+
+    .header{
+        display: none;
+    }
+
+    h1{
+        font-size: 150%;
+    }
+
+    h2{
+        font-size: 135%;
+    }
+
+    .footer{
+        text-align: center;
+    }
+
+     
+}
+
+
+@media screen and (min-width: 690px){
+    a.nav-link{
+         display: none;
+     }
+     
+     .nav ul{
+         position: relative;
+         padding-bottom: 3em;
+         padding-left: 3.5em;
+     }
+ 
+     .nav ul li a{
+         float: left;
+         background: none;
+         color: #313131;
+         border: none;
+         
+     }
+
+     .Contact, .header{
+         display: none;
+     }
+
+     
+ 
+     
+ }
